@@ -8,4 +8,5 @@ class User < ApplicationRecord
   #正規表現にてEmailアドレスのみ
   
   has_secure_password
+  has_many :tasks
 end
